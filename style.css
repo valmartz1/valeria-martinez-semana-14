@@ -6,7 +6,7 @@
   }
   
   body{
-    background-color: #ffb7d2;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,23 +22,51 @@
     justify-content: center;
   }
   
-  h1{
-    font-size: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    color: white;
+  /* Style the heading */
+  h1 {
+    text-align: center;
+    color: #333;
   }
   
-  h2{
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    font-weight: 500;
-    color: white;
+  /* Style the section headings */
+  h2 {
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  /* Style the input and button */
+  input[type="text"],
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    border: 1px solid #999;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+  }
+  
+  /* Style the to-do list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
   }
   
   #input-todo{
@@ -54,13 +82,13 @@
     padding: 10px 20px;
     font-size: medium;
     cursor: pointer;
-    color: #f174a2;
+    color: #f3c0ff;
     background-color: white;
     border: none;
   }
   
   #create-todo:hover{
-    background-color: #ffb7d2;
+    background-color: #e013eb;
     color: white;
   
   }
@@ -70,22 +98,12 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: #f174a2;
+    background-color: #e680fd;
     padding: 1rem 5rem ;
     margin: 0%;
     width: 100%;
   }
   
-  #to-dos-container{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    padding: 1rem 5rem ;
-    width: 100%;
-    height: 100%;
-  }
   
    li{
     cursor: pointer;
